@@ -1,0 +1,29 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+h3{
+    background-color: rgb(107, 75, 143);
+    color: white
+}
+
+button{
+    background-color: rgb(144, 114, 179);
+    color: white
+}
+
+button:hover{
+    background-color:rgb(99, 190, 190);
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 50px rgb(97, 97, 173);}
+    to{box-shadow: 1px 1px 50px rgb(91, 151, 151);}
+}
